@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import AddUser from "./user/AddUser";
 import EditUser from "./user/EditUser";
 import ViewUser from "./user/ViewUser";
+
 function App() {
   return (
     <div className="App">
@@ -21,5 +22,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
